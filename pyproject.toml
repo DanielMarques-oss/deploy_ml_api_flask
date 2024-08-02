@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "deploy-ml"
+version = "0.1.0"
+description = ""
+authors = ["Danie Marques de Almeida <danielmarques.enfermagem@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+flask = "^3.0.3"
+uvicorn = {extras = ["standard"], version = "^0.30.3"}
+fastapi = "^0.111.1"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
